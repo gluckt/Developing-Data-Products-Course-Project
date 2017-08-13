@@ -33,9 +33,6 @@ Price and Carat require transformations to make the primary relationship linear 
 
 ```r
 model <- lm(log_price ~ cube_carat + carat + cut + color + clarity, data = myData)
-
-predict(model, newdata = data.frame(carat = caratInput, cube_carat = caratInput^(1/3), cut = cutInput,
-                                            color = colorInput, clarity = clarityInput))
 ```
 
 Plot of Untransformed vs Transformed Data
