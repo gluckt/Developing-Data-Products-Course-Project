@@ -44,6 +44,6 @@ Plot of Untransformed vs Transformed Data
 
 The app
 ========================================================
-The source code can be located at :
+The source code can be located at: https://github.com/gluckt/Developing-Data-Products-Course-Project
 
-The app itself is hosted here:
+The app itself is hosted here: https://gluckt.shinyapps.io/diamondapp/
